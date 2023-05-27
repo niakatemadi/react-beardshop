@@ -1,0 +1,49 @@
+@use "../utils/constants" as * ;
+
+.Card {
+    border: 1px solid black;
+    height: 300px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(225, 225, 225);
+
+
+    &_img {
+
+        height: 175px;
+        background-color: map-get($map: $colors, $key:"primary");
+        width:220px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &_title {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &_description {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &_button {
+        display: flex;
+        border: 1px solid black;
+        width: 80%;
+        height: 30px;
+        justify-content: space-around;
+        margin-bottom: 10px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
