@@ -8,7 +8,7 @@ function ProductCard({title, description, price}){
             <p className="Card_title">Huile de riçin</p>
             <p className="Card_description">Boisé et aromatique</p>
             <div className="Card_button">
-                <p>Ajouter</p>
+                <p>Ajouter -</p>
                 <p>29 €</p> 
             </div>                     
         </div>
