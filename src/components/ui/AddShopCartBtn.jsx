@@ -10,3 +10,5 @@ function AddShopCartBtn({icon,text}){
         </>
     )
 }
+
+export default AddShopCartBtn;

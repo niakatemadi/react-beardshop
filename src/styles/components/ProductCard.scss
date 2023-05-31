@@ -2,20 +2,20 @@
 
 .Card {
     border: 1px solid black;
-    height: 300px;
-    width: 220px;
+    height: 350px;
+    width: 270px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(244, 243, 243);
 
 
     &_img {
 
         height: 175px;
-        background-color: map-get($map: $colors, $key:"primary");
-        width:220px;
+        background-color: green;
+        width:270px;
 
         &:hover {
             cursor: pointer;
@@ -23,6 +23,7 @@
     }
 
     &_title {
+        font-weight: bold;
         &:hover {
             cursor: pointer;
         }
@@ -40,6 +41,7 @@
         width: 80%;
         height: 30px;
         justify-content: space-around;
+        align-items: center;
         margin-bottom: 10px;
 
         &:hover {

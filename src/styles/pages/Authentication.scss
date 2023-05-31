@@ -1,0 +1,23 @@
+.Authentication {
+    border : 1px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 89vh;
+
+    &__picture {
+        width: 40vw;
+        height: 80vh;
+        background-color: red;
+    }
+
+    &__form {
+        width: 40vw;
+        height: 80vh;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
